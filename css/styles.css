@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --background-color: rgb(255, 255, 255);
+  --letter-color: rgb(33, 33, 33);
+  --select-color: rgb(33, 150, 243);
+  --secondary-back: rgb(245, 244, 250);
+  --footer-color: rgb(47, 48, 58);
+  --descriptions: rgb(117, 117, 117);
+}
+
+body {
+  color: var(--letter-color);
+  background: var(--background-color);
+  font-family: roboto, relaway, sans-serif;
+  font-size: 14px;
+}
+
+/* colores */
+.main_section {
+  background-color: var(--footer-color);
+}
+.team {
+  background-color: var(--secondary-back);
+}
+.pie_de_pagina {
+  background-color: var(--footer-color);
+}
+
+/* encabezado */
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  color: var(--select-color);
+  text-align: right;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* box */
+  padding: 24px 1px 25px 215px;
+}
+.navigation_bar .nav_tap {
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+.navigation_bar {
+  display: flex;
+  list-style: none;
+  /* box */
+  padding: 32px 50px 32px 2px;
+  column-gap: 16px;
+}
+.nav_tap {
+  color: var(--letter-color);
+}
+.navigation_bar :hover {
+  color: var(--select-color);
+}
+.navigation_bar :focus {
+  color: var(--select-color);
+}
+.current {
+  color: var(--select-color);
+}
+
+.navigation_links ._link {
+  color: var(--descriptions);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+.navigation_links {
+  display: flex;
+  list-style: none;
+  padding: 32px 150px 32px 2px;
+  column-gap: 20px;
+}
+
+.navigation_links :hover {
+  color: var(--select-color);
+}
+.navigation_links :focus {
+  color: var(--select-color);
+}
+
+/* main section */
+.main_section {
+  box-sizing: border-box;
+  padding: 200px 250px;
+}
+
+.main_title {
+  color: var(--background-color);
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.request_button {
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--select-color);
+  color: var(--background-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+}
+.main_section.request_button {
+  text-align: center;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+/* primera descripcion */
+.our_job_list {
+  list-style: none;
+}
+
+.job_title {
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.job_description {
+  color: var(--descriptions);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  width: 270px;
+}
+
+/* lo que hacemos */
+.what_we_do {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding: 25px 100px;
+  margin: 0%;
+}
+.jobpictures {
+  list-style: none;
+}
+
+/* nuestro team */
+.team_list {
+  list-style: none;
+}
+.team_title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding: 25px 100px;
+  margin: 0%;
+}
+
+.member_name {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.member_charge {
+  color: var(--descriptions);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.div {
+  background-color: var(--background-color);
+}
+
+/* pie de pagina */
+.footer_logo {
+  color: var(--select-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.foot_links .contact_address {
+  color: var(--background-color);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+.foot_links .contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+.foot_links {
+  list-style: none;
+  padding: 0%;
+}
+.foot_links :hover {
+  color: var(--select-color);
+}
+.pie_de_pagina {
+  padding: 60px 80px;
+}
+
+/* lista de botones de segunda pagina */
+.button_ {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: var(--secondary-back);
+  border: none;
+  cursor: pointer;
+}
+.button_:hover {
+  background: var(--select-color);
+  color: var(--background-color);
+}
+.button_:focus {
+  background: var(--select-color);
+  color: var(--background-color);
+}
+.button_list {
+  list-style: none;
+}
+
+/*main section de la segunda pagina*/
+.pro-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+  width: 322px;
+}
+.pro_description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87 
+  letter-spacing: 0.48px;
+}
+.projects {
+  display: flex;
+  list-style: none;
+  /*flex*/
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.pro_container {
+  border: 1px black;
+}
+.border_container {
+  border: 1px black;
+}
+
+/* contenedores */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/*flex*/
+.navigation_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+.main__title-container{
+  margin: 0;
+}
+.job_container {
+  display: flex;
+  column-gap: 16px;
+  padding: 80px 150px;
+  margin: 0%;
+  flex-basis: calc((100% - 3 * 30px)/4);
+}
+.work_container {
+  display: flex;
+  column-gap: 16px;
+  padding: 30px 20px;
+}
+.members_container {
+  display: flex;
+  column-gap: 25px;
+  padding: 5px 15px;
+  flex-basis: calc((100% - 3 * 30px)/4);
+  margin: 0%;
+}
+.des_container {
+  display: flex;
+  justify-content: center;
+}
+.button_list {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  padding: 50px;
+}
