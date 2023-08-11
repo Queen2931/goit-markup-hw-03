@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="main_header container">
+    <header class="main_header">
       <!--Web studio puede ir en span ya que es solo una pequeña-->
       <!-- Es una norma que el icono sea un enlace -->
-      <div class="navigation_container">
+      <div class="navigation_container container">
         <span><a class="logo" href="#">WebStudio</a></span>
         <nav class="navigation">
           <ul class="navigation_bar">
@@ -31,9 +31,9 @@
       </div>
     </header>
     <main>
-      <section class="main_section container">
-        <h1 class="main_title main__title-container">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <div class="button_container">
+      <section class="main_section">
+        <div class="main_container">
+          <h1 class="main_title main__title-container">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
           <button class="request_button" type="button">Solicite nuestro Servicio</button>
         </div>
       </section>
@@ -69,87 +69,101 @@
           </li>
         </ul>
       </section>
-      <section class="work container">
-        <h2 class="what_we_do">A que nos dedicamos</h2>
-        <ul class="jobpictures work_container">
-          <li>
-            <img src="./images/Trabajo/PrimeraImg.jpg" width="373px" alt="Ipad mas teclado" />
-          </li>
-          <li>
-            <img src="./images/Trabajo/Segundaimg.jpg" width="373px" alt="Smartphone con PC" />
-          </li>
-          <li>
-            <img src="./images/Trabajo/TerceraImg.jpg" width="373px" alt="Ipad with colors" />
-          </li>
-        </ul>
+      <section class="work">
+        <div class="container">
+          <h2 class="what_we_do">A que nos dedicamos</h2>
+          <ul class="jobpictures work_container">
+            <li>
+              <img src="./images/Trabajo/PrimeraImg.jpg" width="373px" alt="Ipad mas teclado" />
+            </li>
+            <li>
+              <img src="./images/Trabajo/Segundaimg.jpg" width="373px" alt="Smartphone con PC" />
+            </li>
+            <li>
+              <img src="./images/Trabajo/TerceraImg.jpg" width="373px" alt="Ipad with colors" />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="team container">
-        <h2 class="team_title">Nuestro Equipo</h2>
-        <ul class="team_list members_container">
-          <li class="first_team_member">
-            <div class="div">
-              <img
-                class="member_img"
-                src="./images/Equipo/AndresCubo.jpg"
-                width="270px"
-                alt="Andres Cubo"
-              />
-              <h3 class="member_name">Andres Cubo</h3>
-              <p class="member_charge">Diseñasor de productos</p>
-            </div>
-          </li>
-          <li class="second_team_member">
-            <div class="div">
-              <img
-                class="member_img"
-                src="./images/Equipo/CarlaPalacios.jpg"
-                width="270px"
-                alt="Carla Palacios"
-              />
-              <h3 class="member_name">Carla Palacios</h3>
-              <p class="member_charge">Desarroladora Frontend</p>
-            </div>
-          </li>
-          <li class="third_team_member">
-            <div class="div">
-              <img
-                class="member_img"
-                src="./images/Equipo/MarioDorado.jpg"
-                width="270px"
-                alt="Mario Dorado"
-              />
-              <h3 class="member_name">Mario Dorado</h3>
-              <p class="member_charge">Marketing</p>
-            </div>
-          </li>
-          <li class="fourth_team_member">
-            <div class="div">
-              <img
-                class="member_img"
-                src="./images/Equipo/PabloMijangos.jpg"
-                width="270px"
-                alt="Pablo Mijangos"
-              />
-              <h3 class="member_name">Pablo Mijangos</h3>
-              <p class="member_charge">Diseñador IU</p>
-            </div>
-          </li>
-        </ul>
+      <section class="team">
+        <div class="container">
+          <h2 class="team_title">Nuestro Equipo</h2>
+          <ul class="team_list members_container">
+            <li class="first_team_member">
+              <div class="div">
+                <img
+                  class="member_img"
+                  src="./images/Equipo/AndresCubo.jpg"
+                  width="270px"
+                  alt="Andres Cubo"
+                />
+                <div class="img_subtitle">
+                  <h3 class="member_name">Andres Cubo</h3>
+                  <p class="member_charge">Diseñasor de productos</p>
+                </div>
+              </div>
+            </li>
+            <li class="second_team_member">
+              <div class="div">
+                <img
+                  class="member_img"
+                  src="./images/Equipo/CarlaPalacios.jpg"
+                  width="270px"
+                  alt="Carla Palacios"
+                />
+                <div class="img_subtitle">
+                  <h3 class="member_name">Carla Palacios</h3>
+                  <p class="member_charge">Desarroladora Frontend</p>
+                </div>
+              </div>
+            </li>
+            <li class="third_team_member">
+              <div class="div">
+                <img
+                  class="member_img"
+                  src="./images/Equipo/MarioDorado.jpg"
+                  width="270px"
+                  alt="Mario Dorado"
+                />
+                <div class="img_subtitle">
+                  <h3 class="member_name">Mario Dorado</h3>
+                  <p class="member_charge">Marketing</p>
+                </div>
+              </div>
+            </li>
+            <li class="fourth_team_member">
+              <div class="div">
+                <img
+                  class="member_img"
+                  src="./images/Equipo/PabloMijangos.jpg"
+                  width="270px"
+                  alt="Pablo Mijangos"
+                />
+                <div class="img_subtitle">
+                  <h3 class="member_name">Pablo Mijangos</h3>
+                  <p class="member_charge">Diseñador IU</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="pie_de_pagina container">
-      <span class="footer_logo">WebStudio</span>
-      <address class="foot_contact">
-        <ul class="foot_links">
-          <li>
-            <a class="contact_address" href="#GoogleMapsURl"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-            >
-          </li>
-          <li><a class="contact" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
-        </ul>
-      </address>
+    <footer class="pie_de_pagina">
+      <div class="container">
+        <span class="footer_logo">WebStudio</span>
+        <address class="foot_contact">
+          <ul class="foot_links">
+            <li>
+              <a class="contact_address" href="#GoogleMapsURl"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >
+            </li>
+            <li><a class="contact" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="contact" href="tel:+525555296000">+52 55 5529 6000</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
