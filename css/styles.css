@@ -116,11 +116,6 @@ body {
   cursor: pointer;
 }
 
-.button_container {
-  display: flex;
-  justify-content: center;
-  padding-top: 16px;
-}
 /* primera descripcion */
 .our_job_list {
   list-style: none;
@@ -167,7 +162,6 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  padding: 25px 100px;
   margin: 0%;
 }
 
@@ -230,6 +224,7 @@ body {
 
 /* lista de botones de segunda pagina */
 .button_ {
+  display: flex;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -239,6 +234,7 @@ body {
   background: var(--secondary-back);
   border: none;
   cursor: pointer;
+  flex-basis: calc((100% - 4 * 8px) / 5);
 }
 .button_:hover {
   background: var(--select-color);
@@ -259,26 +255,24 @@ body {
   line-height: 2;
   letter-spacing: 1.08px;
   width: 322px;
+  margin: 0%;
 }
 .pro_description {
+  margin: 0px;
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.87 
   letter-spacing: 0.48px;
+  line-height: 1.87;
 }
 .projects {
   display: flex;
   list-style: none;
   /*flex*/
   flex-wrap: wrap;
-  gap: 16px;
-}
-.pro_container {
-  border: 1px black;
-}
-.border_container {
-  border: 1px black;
+  gap: 30px;
+  margin: 0px;
+  padding: 0px 0px 82px 0px;
 }
 
 /* contenedores */
@@ -288,14 +282,14 @@ body {
 }
 
 /*flex*/
-.navigation_container{
+.navigation_container {
   display: flex;
   align-items: center;
 }
-.main__title-container{
+.main__title-container {
   margin: 0;
 }
-.main_container{
+.main_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,32 +300,37 @@ body {
 .job_container {
   display: flex;
   column-gap: 30px;
-  padding: 95px 215px 94px 215px;
   margin: 0%;
-  flex-basis: calc((100% - 3 * 30px)/4);
+  padding: 0px;
+  flex-basis: calc((100% - 3 * 30px) / 4);
 }
 .work_container {
   display: flex;
   justify-content: space-between;
   margin: 0%;
   flex-basis: calc((100% - 2 * 30.26px) / 3);
-  padding-bottom: 94px;
+  padding: 0%;
 }
 .members_container {
   display: flex;
   justify-content: space-between;
   margin: 0%;
-  padding: 0%;
+  margin-top: 50px;
+  padding: 0px;
 }
 .des_container {
   display: flex;
   justify-content: center;
 }
+.button_container {
+  width: 611px;
+  padding: 0%;
+}
 .button_list {
   display: flex;
   justify-content: center;
-  column-gap: 16px;
-  padding: 50px;
+  column-gap: 8px;
+  margin: auto;
 }
 .member_img {
   flex-basis: calc((100% - 3 * 37px) / 4);
@@ -339,4 +338,18 @@ body {
 .img_subtitle {
   width: 270px;
   height: 108px;
+}
+.div {
+  border-radius: 4px;
+}
+.section {
+  padding: 94px 0px;
+}
+.border_description {
+  width: 370px;
+  border: solid 1px;
+  border-color: #eeeeee;
+}
+.shape_description {
+  padding: 20px 24px;
 }
