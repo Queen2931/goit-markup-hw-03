@@ -162,7 +162,7 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin: 0%;
+  margin: 0 auto;
 }
 
 .member_name {
@@ -185,9 +185,6 @@ body {
 }
 .div {
   background-color: var(--background-color);
-}
-.team {
-  padding: 94px 215px 94px 208px;
 }
 
 /* pie de pagina */
@@ -314,10 +311,11 @@ body {
 }
 .members_container {
   display: flex;
-  justify-content: space-between;
   margin: 0%;
   margin-top: 50px;
   padding: 0px;
+  column-gap: 37px;
+  align-items: flex-start;
 }
 .des_container {
   display: flex;
@@ -362,4 +360,7 @@ section {
 }
 .hidden {
   display: none;
+}
+.work {
+  padding-top: 0px;
 }
